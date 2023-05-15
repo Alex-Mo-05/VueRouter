@@ -2,50 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TMDB API</title>
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="./script.js" , defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <div id="pagetop">
-      <select id="list" name="Select">
-        <option value="809">Shrek 2</option>
-        <option value="76600">Avatar: The Way of Water</option>
-        <option value="505642">Black Panther: Wakanda Forever</option>
-        <option value="502356">The Super Mario Bros. Movie</option>
-        <option value="594767">Shazam! Fury of the Gods</option>
-        <option value="603692">John Wick: Chapter 4</option>
-        <option value="640146">Ant-Man and the Wasp: Quantumania</option>
-        <option value="378064">A Silent Voice: The Movie</option>
-        <option value="2109">Rush Hour</option>
-        <option value="9502">Kung Fu Panda</option>
-      </select>
-      <button id="getbutton">Get</button>
-    </div>
+    <title>Vite + Vue</title>
   </head>
   <body>
-    <div class="container">
-      <div id="containertop">
-        <div id="left">
-          <img id="poster" src="" />
-        </div>
-        <div id="right">
-          <h1 id="title"></h1>
-          <h3 id="tagline"></h3>
-          <p id="overview"></p>
-        </div>
-      </div>
-      <div id="containerbot">
-        <h3 id="status"></h3>
-        <p id="language"></p>
-        <p id="runtime"></p>
-        <p id="popularity"></p>
-        <p id="voteAverage"></p>
-        <p id="voteCount"></p>
-        <p id="budget"></p>
-      </div>
-      <iframe id="trailer"></iframe>
-    </div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>
